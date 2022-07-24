@@ -1,4 +1,4 @@
-FROM centos:7
+FROM fedora
 LABEL Name ashish
 RUN yum install httpd -y
 COPY * /var/www/html/
